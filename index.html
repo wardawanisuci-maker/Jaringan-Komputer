@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suci Wardawani - Portfolio</title>
+    <meta name="description" content="Portfolio of Suci Wardawani, Computer Science Student at Universitas Indonesia Timur.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Suci<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#artikel">Artikel</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-name">Suci Wardawani</h1>
+            <p class="hero-subtitle">Mahasiswa Fakultas Ilmu Komputer<br>Universitas Indonesia Timur</p>
+            <div class="hero-divider"></div>
+            <div class="hero-buttons">
+                <a href="#profil" class="btn btn-primary">Lihat Profil</a>
+                <a href="#kontak" class="btn btn-outline">Kontak</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Section -->
+    <section id="profil" class="profil">
+        <div class="container">
+            <div class="profil-card">
+                <h2>Profil Says</h2>
+                <div class="profil-info">
+                    <p class="profile-name"><strong>Nama:</strong> Suci Wardawani</p>
+                    <p class="profile-faculty"><strong>Fakultas:</strong> Ilmu Komputer</p>
+                    <p class="profile-uni"><strong>Universitas:</strong> Universitas Indonesia Timur</p>
+                    <p class="profile-desc">
+                        Saya adalah mahasiswa Fakultas Ilmu Komputer Universitas Indonesia Timur
+                        yang memiliki ketertarikan pada bidang teknologi informasi, pemrograman,
+                        dan pengembangan sistem berbasis komputer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio Section -->
+    <section id="portofolio" class="portofolio">
+        <div class="container">
+            <h2 class="section-title">Portofolio</h2>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card">
+                    <h3>Sistem Informasi Akademik</h3>
+                    <p>Sistem manajemen data mahasiswa sederhana menggunakan PHP dan MySQL.</p>
+                    <div class="tech-stack">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="portfolio-card">
+                    <h3>Landing Page Profil</h3>
+                    <p>Desain landing page responsif untuk profil pribadi dengan animasi halus.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="portfolio-card">
+                    <h3>Aplikasi Kalkulator</h3>
+                    <p>Aplikasi kalkulator berbasis web dengan logika JavaScript dasar.</p>
+                    <div class="tech-stack">
+                        <span>JavaScript</span>
+                        <span>DOM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artikel Section -->
+    <section id="artikel" class="artikel">
+        <div class="container">
+            <h2 class="section-title">Artikel & Tulisan</h2>
+            <div class="artikel-list">
+                <article class="artikel-item">
+                    <h3>Masa Depan AI dalam Pendidikan</h3>
+                    <p class="artikel-summary">Refleksi tentang bagaimana kecerdasan buatan dapat membantu proses belajar mengajar yang lebih efektif.</p>
+                    <span class="artikel-date">24 Januari 2026</span>
+                </article>
+                <article class="artikel-item">
+                    <h3>Belajar Algoritma Sejak Dini</h3>
+                    <p class="artikel-summary">Pentingnya memahami logika pemrograman dasar bagi mahasiswa baru ilmu komputer.</p>
+                    <span class="artikel-date">10 Januari 2026</span>
+                </article>
+                <article class="artikel-item">
+                    <h3>Pengalaman KKN di Desa Digital</h3>
+                    <p class="artikel-summary">Cerita pengalaman membangun infrastruktur jaringan sederhana di desa terpencil.</p>
+                    <span class="artikel-date">15 Desember 2025</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <h2 class="section-title">Kontak</h2>
+            <p class="kontak-text">Silakan hubungi saya melalui email untuk keperluan akademik dan profesional.</p>
+            <a href="mailto:wardawanisuci@gmail.com" class="email-link">📧 wardawanisuci@gmail.com</a>
+            
+            <form class="contact-form" action="#" onsubmit="alert('Pesan terkirim! (Demo)'); return false;">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea placeholder="Pesan Anda" rows="4" required></textarea>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Suci Wardawani. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
